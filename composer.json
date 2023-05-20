@@ -17,10 +17,19 @@
   },
   "require": {
     "php": ">=8.0",
+    "dashifen/bumper": "^1.0",
     "dashifen/wp-handler": "^10.11"
   },
   "config": {
     "optimize-autoloader": true,
     "sort-packages": true
+  },
+  "scripts": {
+    "bump-version": "php bump-version.php"
+  },
+  "extra": {
+    "bump": [
+      "style.css"
+    ]
   }
 }
