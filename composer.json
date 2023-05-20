@@ -1,0 +1,26 @@
+{
+  "name": "dashifen/dashifen2023-block",
+  "description": "A block theme for dashifen.com and beyond.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "David Dashifen Kees",
+      "email": "dashifen@dashifen.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\Theme2023\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "dashifen/wp-handler": "^10.11"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
