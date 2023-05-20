@@ -1,6 +1,6 @@
 {
   "name": "dashifen/dashifen2023-block",
-  "description": "A block theme for dashifen.com and beyond.",
+  "description": "A block theme for dashifen.com (and, maybe, subdomains thereof) for 2023 and beyond.",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
