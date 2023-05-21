@@ -2,6 +2,7 @@
 
 namespace Dashifen\Theme2023\Agents;
 
+use Dashifen\Theme2023\Theme;
 use Dashifen\WPHandler\Agents\AbstractThemeAgent;
 use Dashifen\WPHandler\Handlers\HandlerException;
 
@@ -9,6 +10,8 @@ use Dashifen\WPHandler\Handlers\HandlerException;
  * CoreRemovalAgent
  *
  * This agent removes Core theme features that we don't want to use (for now).
+ *
+ * @property Theme $handler
  */
 class CoreRemovalAgent extends AbstractThemeAgent
 {
